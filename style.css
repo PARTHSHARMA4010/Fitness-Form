@@ -1,0 +1,102 @@
+  
+        body {
+            font-family: 'Baloo Bhai', cursive;
+            color: #ffffff;
+            margin: 0;
+            padding: 0;
+            background: url('img/bg.jpg') no-repeat center center fixed;
+            background-size: cover;
+            background-color: #212121;
+        }
+
+        /* Header Styling */
+        .header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 20px;
+        }
+
+        .header .left {
+            font-size: 30px;
+        }
+
+        .header .mid {
+            width: 50%;
+            text-align: center;
+        }
+
+        .header .mid ul {
+            margin: 0;
+            padding: 0;
+            list-style-type: none;
+        }
+
+        .header .mid ul li {
+            display: inline-block;
+            margin-right: 20px;
+        }
+
+        .header .mid ul li a {
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 20px;
+        }
+
+        .header .mid ul li a:hover,
+        .header .mid ul li a.active {
+            text-decoration: underline;
+            color: #cccccc;
+        }
+
+        .header .right .btn {
+            margin-left: 10px;
+        }
+
+        /* Container Styling */
+        .container {
+            border: 2px solid #ffffff;
+            border-radius: 20px;
+            padding: 40px;
+            width: 70%;
+            margin: 50px auto;
+            background: rgba(0, 0, 0, 0.5);
+        }
+
+        .container h1 {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .form-group input {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            font-size: 18px;
+            border: 2px solid #ffffff;
+            border-radius: 8px;
+            background: rgba(255, 255, 255, 0.2);
+            color: #ffffff;
+        }
+
+        .form-group input::placeholder {
+            color: #ffffff;
+        }
+
+        .btn {
+            display: block;
+            width: 100%;
+            padding: 12px;
+            font-size: 20px;
+            border: 2px solid #ffffff;
+            border-radius: 10px;
+            background-color: transparent;
+            color: #ffffff;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn:hover {
+            background-color: rgba(255, 255, 255, 0.1);
+        }
